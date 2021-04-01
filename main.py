@@ -29,7 +29,7 @@ def no_switch_sim():
     elif con_item == "goatA" or con_item == "goatB":
         return False
 
-for i in range(0, 999999):
+for i in range(0, 1000000):
     runs += 1
     if no_switch_sim():
         no_switch_wins += 1
